@@ -38,7 +38,7 @@ if len(argv) > 1 and argv[1] in ["bdist_wheel", "install", "develop"]:
     errors_compiler.start()
 
 setup(
-    name="pyrogram-zeeb",
+    name="pyrogram-navy",
     version=version,
     description="Elegant, modern and asynchronous Telegram MTProto API framework in Python for users and bots (Navy Fork)",
     long_description=readme,
@@ -77,7 +77,7 @@ setup(
     keywords="telegram chat messenger mtproto api client library python",
     python_requires=">=3.8",
     package_data={
-        "pyrogram-zeeb": ["py.typed"],
+        "pyrogram-navy": ["py.typed"],
     },
     packages=find_packages(exclude=["compiler*", "tests*"]),
     zip_safe=False,
